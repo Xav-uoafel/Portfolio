@@ -1,30 +1,25 @@
-# Astro Starter Kit: Portfolio
+# 🚀 Xavier Le Faou's Portfolio
 
-```sh
-npm create astro@latest -- --template portfolio
-```
+Bienvenue dans le monde fantastique de **Xavier Le Faou** ! 🌟 Ce portfolio est le fruit d'une passion débordante pour le développement web, combinée à une soif insatiable d'apprentissage et d'innovation. Préparez-vous à découvrir mes projets, mes compétences et bien plus encore, le tout présenté de manière dynamique et interactive grâce à **React** et **Astro**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+## 📸 Aperçu
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+![Aperçu du portfolio](./assets/Portfolio.png)
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+## 🛠️ Technologies Utilisées
 
-## 🧞 Commands
+Voici le cocktail technologique qui donne vie à ce portfolio :
 
-All commands are run from the root of the project, from a terminal:
+- **React** : Pour une interface utilisateur super réactive et moderne.
+- **Astro** : Pour générer des sites statiques rapides et efficaces.
+- **HTML & CSS** : Parce qu'on ne peut pas vivre sans eux !
+- **JavaScript** : Le langage des magiciens du web.
+- **Node.js** : Pour le backend et la gestion des requêtes serveur.
+- **GitHub Pages** : Pour héberger ce chef-d'œuvre.
+- **Heroku** : Pour une mise en ligne rapide et sans douleur.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## ✨ Fonctionnalités du Portfolio
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Présentation des Projets** : Découvrez mes créations, avec des descriptions détaillées, des images et des liens vers les dépôts GitHub.
+- **Compétences** : Une liste élégante de mes compétences techniques, illustrée par des exemples concrets.
+- **Contact** : Un formulaire de contact pratique pour que vous puissiez me joindre facilement.
