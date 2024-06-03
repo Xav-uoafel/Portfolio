@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos | Xavier Le Faou" description="À propos de Xavier Le Faou">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Bienvenue dans mon univers ! Découvrez mon parcours et apprenez à mieux me connaître."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/surf.JPG"
+					alt="Xavier Le Faou en plein cours de surf à Biarritz"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Parcours</h2>
+				<div class="content">
+					<p>
+						Je suis un développeur créatif basé à Toulouse, France, passionné par l'innovation et la technologie. Après avoir travaillé dans divers domaines tels que la logistique et l'enseignement de la conduite, j'ai découvert ma véritable passion pour le développement web. Récemment, j'ai complété un bootcamp au Wagon où j'ai appris Ruby on Rails, JavaScript, HTML, CSS, et intégré des solutions d'intelligence artificielle dans des applications web.
+					</p>
+					<p>
+						Mon projet "Second-Round" est un exemple de mon travail, facilitant la mise en relation entre professionnels vendeurs de jeux d'occasion et particuliers. J'ai également créé "Poké-Loca", un clone d’Airbnb pour la location de Pokémon. Ces expériences m'ont permis de renforcer mes compétences en développement et de toujours chercher à apprendre et à m'améliorer.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation</h2>
+				<div class="content">
+					<p>
+						<b>Bachelor 3 Concepteur Intégrateur DevOps (2024 - 2025)</b> - EPSI Toulouse<br/>
+						<b>Concepteur développeur d'application web (2024)</b> - Le Wagon Toulouse<br/>
+						<b>B.E.P.E.C.A.S.E.R (2010)</b> - Lycée Marseilleveyre + ECF Marseille
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<p>
+						<b>Langages :</b> Ruby, JavaScript, Python, HTML, CSS<br/>
+						<b>Frameworks et Bibliothèques :</b>Ruby on Rails, React, Vue.js, Bootstrap, TailwindCSS<br/>
+						<b>Outils :</b> Trello, Git, GitHub, Heroku, Figma, Bootstrap Studios, Notions<br/>
+						<b>Méthodologies :</b> Agile, Scrum
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
