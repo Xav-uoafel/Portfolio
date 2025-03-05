@@ -4,7 +4,7 @@ Bienvenue dans le monde fantastique de **Xavier Le Faou** ! 🌟 Ce portfolio es
 
 ## 📸 Aperçu
 
-![Aperçu du portfolio](./assets/Portfolio.png)
+![Aperçu du portfolio](./public/assets/Portfolio.png)
 
 ## 🛠️ Technologies Utilisées
 
