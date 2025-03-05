@@ -1,6 +1,6 @@
 ---
 title: StarBnB
-publishDate: 2024-12-06 00:00:00
+publishDate: 2025-12-06 00:00:00
 img: /assets/Starbnb.PNG
 img_alt: Interface utilisateur de l'application StarBnb montrant la page d'accueil
 description: |
