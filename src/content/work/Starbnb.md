@@ -1,7 +1,7 @@
 ---
 title: StarBnB
 publishDate: 2024-12-06 00:00:00
-img: /assets/Starbnb.png
+img: /assets/Starbnb.PNG
 img_alt: Interface utilisateur de l'application StarBnb montrant la page d'accueil
 description: |
   Application qui permet d'en savoir plus sur l'immensité de l'univers
